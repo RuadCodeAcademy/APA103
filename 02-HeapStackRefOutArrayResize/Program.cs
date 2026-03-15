@@ -6,12 +6,8 @@
         {
             int[] numbers = { 1, 2, 3, };
 
-            
 
-           
-            CustomArrResize(ref numbers,   9, 10, 11, 23, 32, 34, 54,45,39);
-
-
+            CustomArrResize(ref numbers, 9, 10, 11, 23, 32, 34, 54, 45, 39);
         }
 
 
