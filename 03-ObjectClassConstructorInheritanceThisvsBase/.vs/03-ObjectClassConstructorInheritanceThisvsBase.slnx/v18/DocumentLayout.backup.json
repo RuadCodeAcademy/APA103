@@ -11,16 +11,16 @@
       "RelativeMoniker": "D:0:0:{4926F3F1-A2AD-693F-70D3-4DD100647C68}|03-ObjectClassConstructorInheritanceThisvsBase.csproj|solutionrelative:models\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{4926F3F1-A2AD-693F-70D3-4DD100647C68}|03-ObjectClassConstructorInheritanceThisvsBase.csproj|c:\\users\\lenovo\\desktop\\apa103\\03-objectclassconstructorinheritancethisvsbase\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4926F3F1-A2AD-693F-70D3-4DD100647C68}|03-ObjectClassConstructorInheritanceThisvsBase.csproj|solutionrelative:models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{4926F3F1-A2AD-693F-70D3-4DD100647C68}|03-ObjectClassConstructorInheritanceThisvsBase.csproj|c:\\users\\lenovo\\desktop\\apa103\\03-objectclassconstructorinheritancethisvsbase\\models\\teacher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4926F3F1-A2AD-693F-70D3-4DD100647C68}|03-ObjectClassConstructorInheritanceThisvsBase.csproj|solutionrelative:models\\teacher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4926F3F1-A2AD-693F-70D3-4DD100647C68}|03-ObjectClassConstructorInheritanceThisvsBase.csproj|c:\\users\\lenovo\\desktop\\apa103\\03-objectclassconstructorinheritancethisvsbase\\models\\administrator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4926F3F1-A2AD-693F-70D3-4DD100647C68}|03-ObjectClassConstructorInheritanceThisvsBase.csproj|solutionrelative:models\\administrator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4926F3F1-A2AD-693F-70D3-4DD100647C68}|03-ObjectClassConstructorInheritanceThisvsBase.csproj|c:\\users\\lenovo\\desktop\\apa103\\03-objectclassconstructorinheritancethisvsbase\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4926F3F1-A2AD-693F-70D3-4DD100647C68}|03-ObjectClassConstructorInheritanceThisvsBase.csproj|solutionrelative:models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,7 +34,7 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Administrator.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\APA103\\03-ObjectClassConstructorInheritanceThisvsBase\\Models\\Administrator.cs",
               "RelativeDocumentMoniker": "Models\\Administrator.cs",
@@ -46,27 +46,29 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Teacher.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\APA103\\03-ObjectClassConstructorInheritanceThisvsBase\\Models\\Teacher.cs",
               "RelativeDocumentMoniker": "Models\\Teacher.cs",
               "ToolTip": "C:\\Users\\Lenovo\\Desktop\\APA103\\03-ObjectClassConstructorInheritanceThisvsBase\\Models\\Teacher.cs",
               "RelativeToolTip": "Models\\Teacher.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAA8wBsAAAA4AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-16T17:52:04.871Z"
+              "WhenOpened": "2026-03-16T17:52:04.871Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "Student.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\APA103\\03-ObjectClassConstructorInheritanceThisvsBase\\Models\\Student.cs",
               "RelativeDocumentMoniker": "Models\\Student.cs",
               "ToolTip": "C:\\Users\\Lenovo\\Desktop\\APA103\\03-ObjectClassConstructorInheritanceThisvsBase\\Models\\Student.cs",
               "RelativeToolTip": "Models\\Student.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAQwBsAAAA4AAAAAAAAAA==",
+              "ViewState": "AgIAACEAAAAAAAAAAAAYwBsAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-16T17:51:12.211Z"
+              "WhenOpened": "2026-03-16T17:51:12.211Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -76,9 +78,10 @@
               "RelativeDocumentMoniker": "Models\\Person.cs",
               "ToolTip": "C:\\Users\\Lenovo\\Desktop\\APA103\\03-ObjectClassConstructorInheritanceThisvsBase\\Models\\Person.cs",
               "RelativeToolTip": "Models\\Person.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAzwCYAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACYAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-16T17:50:48.26Z"
+              "WhenOpened": "2026-03-16T17:50:48.26Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -88,7 +91,7 @@
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\Lenovo\\Desktop\\APA103\\03-ObjectClassConstructorInheritanceThisvsBase\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAnAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-16T17:48:54.33Z",
               "EditorCaption": ""
