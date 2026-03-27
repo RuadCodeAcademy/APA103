@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Lenovo\\Desktop\\APA103\\07-NullableEnumStruct\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{31A72761-3DD4-19F9-741A-125F47482EB4}|07-NullableEnumStruct.csproj|c:\\users\\lenovo\\desktop\\apa103\\07-nullableenumstruct\\models\\drinkorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31A72761-3DD4-19F9-741A-125F47482EB4}|07-NullableEnumStruct.csproj|solutionrelative:models\\drinkorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31A72761-3DD4-19F9-741A-125F47482EB4}|07-NullableEnumStruct.csproj|c:\\users\\lenovo\\desktop\\apa103\\07-nullableenumstruct\\enums\\drinktype enum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31A72761-3DD4-19F9-741A-125F47482EB4}|07-NullableEnumStruct.csproj|solutionrelative:enums\\drinktype enum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31A72761-3DD4-19F9-741A-125F47482EB4}|07-NullableEnumStruct.csproj|c:\\users\\lenovo\\desktop\\apa103\\07-nullableenumstruct\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31A72761-3DD4-19F9-741A-125F47482EB4}|07-NullableEnumStruct.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31A72761-3DD4-19F9-741A-125F47482EB4}|07-NullableEnumStruct.csproj|c:\\users\\lenovo\\desktop\\apa103\\07-nullableenumstruct\\enums\\drinksize enum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31A72761-3DD4-19F9-741A-125F47482EB4}|07-NullableEnumStruct.csproj|solutionrelative:enums\\drinksize enum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31A72761-3DD4-19F9-741A-125F47482EB4}|07-NullableEnumStruct.csproj|c:\\users\\lenovo\\desktop\\apa103\\07-nullableenumstruct\\enums\\orderstatus enum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31A72761-3DD4-19F9-741A-125F47482EB4}|07-NullableEnumStruct.csproj|solutionrelative:enums\\orderstatus enum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DrinkType Enum.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\APA103\\07-NullableEnumStruct\\Enums\\DrinkType Enum.cs",
+              "RelativeDocumentMoniker": "Enums\\DrinkType Enum.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\APA103\\07-NullableEnumStruct\\Enums\\DrinkType Enum.cs",
+              "RelativeToolTip": "Enums\\DrinkType Enum.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-27T14:42:45.337Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DrinkOrder.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\APA103\\07-NullableEnumStruct\\Models\\DrinkOrder.cs",
+              "RelativeDocumentMoniker": "Models\\DrinkOrder.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\APA103\\07-NullableEnumStruct\\Models\\DrinkOrder.cs",
+              "RelativeToolTip": "Models\\DrinkOrder.cs",
+              "ViewState": "AgIAAFgAAAAAAAAAAADwv1wAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-27T08:17:37.368Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "OrderStatus Enum.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\APA103\\07-NullableEnumStruct\\Enums\\OrderStatus Enum.cs",
+              "RelativeDocumentMoniker": "Enums\\OrderStatus Enum.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\APA103\\07-NullableEnumStruct\\Enums\\OrderStatus Enum.cs",
+              "RelativeToolTip": "Enums\\OrderStatus Enum.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-27T08:15:18.885Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DrinkSize Enum.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\APA103\\07-NullableEnumStruct\\Enums\\DrinkSize Enum.cs",
+              "RelativeDocumentMoniker": "Enums\\DrinkSize Enum.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\APA103\\07-NullableEnumStruct\\Enums\\DrinkSize Enum.cs",
+              "RelativeToolTip": "Enums\\DrinkSize Enum.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-27T08:13:18.23Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\APA103\\07-NullableEnumStruct\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\APA103\\07-NullableEnumStruct\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-27T08:07:52.882Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
