@@ -2,6 +2,8 @@ CREATE DATABASE Company
 
 USE Company
 
+drop table Employees
+
 create table Employees(
 EmployeeID int,
 FirstName nvarchar(max),
