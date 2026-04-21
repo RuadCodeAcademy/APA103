@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #000;
+}
+
+.main-container {
+    /* Arxa fon şəkli */
+    background-image: url('https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1920&q=80');
+    
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 20px;
+}
+
+.content-wrapper {
+    max-width: 900px;
+    text-align: center;
+    color: #ffff00; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8); 
+}
+
+
+.top-text {
+    font-size: 1.1rem;
+    line-height: 1.5;
+    margin-bottom: 60px;
+}
+
+
+.middle-text {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin-bottom: 60px;
+}
+
+
+.bottom-text {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    opacity: 0.9;
+}
+
+
+
+
+
