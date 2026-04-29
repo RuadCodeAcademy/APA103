@@ -1,0 +1,123 @@
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f2f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+
+.card {
+    background-color: #fff;
+    width: 380px;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+
+.card-image {
+    position: relative;
+    height: 220px;
+}
+
+.card-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.heart-icon {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    color: white;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+
+.card-content {
+    padding: 20px;
+}
+
+.property-type {
+    font-size: 14px;
+    font-weight: bold;
+    color: #5f6368;
+    margin: 0;
+    letter-spacing: 0.5px;
+}
+
+.price {
+    font-size: 32px;
+    margin: 10px 0;
+    color: #202124;
+}
+
+.address {
+    color: #70757a;
+    font-size: 18px;
+    margin: 0;
+}
+
+
+.details {
+    display: flex;
+    border-top: 1px solid #e8eaed;
+    border-bottom: 1px solid #e8eaed;
+    padding: 15px 20px;
+}
+
+.detail-item {
+    display: flex;
+    align-items: center;
+    margin-right: 25px;
+    color: #5f6368;
+}
+
+.detail-item i {
+    font-size: 20px;
+    margin-right: 8px;
+}
+
+
+.realtor-section {
+    padding: 20px;
+    background-color: #f8f9fa;
+}
+
+.realtor-label {
+    font-size: 12px;
+    font-weight: bold;
+    color: #70757a;
+    margin-bottom: 10px;
+}
+
+.realtor-info {
+    display: flex;
+    align-items: center;
+}
+
+.agent-photo {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 15px;
+}
+
+.agent-details h3 {
+    margin: 0;
+    font-size: 16px;
+    color: #202124;
+}
+
+.agent-details p {
+    margin: 0;
+    font-size: 14px;
+    color: #70757a;
+}
