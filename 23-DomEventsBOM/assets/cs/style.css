@@ -1,0 +1,64 @@
+body {
+    background-color: #619192; /* Arxa plan rəngi */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.container {
+    text-align: center;
+    width: 100%;
+    max-width: 700px;
+}
+
+.row {
+    margin-bottom: 25px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.rounded-input {
+    border: none;
+    border-radius: 20px; /* Künclərin yuvarlaqlığı */
+    padding: 15px 25px;
+    width: 180px;
+    outline: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.middle {
+    width: 250px;
+}
+
+.button-group {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap; /* Kiçik ekranlarda düymələrin alt-alta düşməsi üçün */
+}
+
+button {
+    background-color: #f5f5f5;
+    border: 1px solid #333;
+    border-radius: 8px;
+    padding: 12px 28px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 500;
+    transition: all 0.2s ease;
+    min-width: 90px;
+}
+
+button:hover {
+    background-color: #e2e2e2;
+    transform: translateY(-2px); /* Yüngül yuxarı qalxma effekti */
+}
+
+button:active {
+    transform: translateY(0);
+}
