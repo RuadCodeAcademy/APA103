@@ -1,0 +1,34 @@
+﻿@using _26_DynamicPropertiesViewModel.Models
+@using _26_DynamicPropertiesViewModel.ViewModels
+@model HomeVM
+<h1>Home Page</h1>
+
+
+
+@* <h1>@TempData["name"]</h1> *@
+
+@* <ul>
+    @foreach(Student item in ViewData["Students"] as List<Student>)
+    {
+        <li>@item.Id-@item.Name - @item.Age </li>
+    }
+
+</ul>  *@
+
+<ul>
+    @foreach (Student student in Model.Students)
+    {
+        <li>@student.Id-@student.Name - @student.Age </li>
+    }
+
+</ul>
+
+<table style="border: 1px solid black">
+    @foreach(Teacher teacher in Model.Teachers)
+    {
+        <tr>
+            <td>@teacher.Id - @teacher.Name - @teacher.Salary</td>
+        </tr>
+    }
+
+</table>
