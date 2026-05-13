@@ -1,4 +1,4 @@
-﻿@model List<Category>
+﻿@model List<Slider>
 
 @{
     int count = 0;
@@ -8,7 +8,7 @@
     <div class="col-lg-12 grid-margin stretch-card">
         <div class="card">
             <div class="card-body">
-                <h4 class="card-title">Category Table</h4>
+                <h4 class="card-title">Slider Table</h4>
 
                 <div class="table-responsive">
                     <a asp-action="create" class="btn btn-outline-success btn-fw">
@@ -21,10 +21,16 @@
                                     Count
                                 </th>
                                 <th>
-                                    Name
+                                    Image
                                 </th>
                                 <th>
-                                    Products
+                                    Title
+                                </th>
+                                <th>
+                                    Subtitle
+                                </th>
+                                <th>
+                                    Order
                                 </th>
                                 <th>
                                     Settings
@@ -33,22 +39,28 @@
                             </tr>
                         </thead>
                         <tbody>
-                            @foreach (Category category in Model)
+                            @foreach (Slider slider in Model)
                             {
                                 <tr>
                                     <td class="py-1">
                                         <p>@(++count)</p>
                                     </td>
                                     <td class="py-1">
-                                        <p>@category.Name</p>
+                                        <img style="width:70px;height:70px" src="~/assets/images/website-images//@slider.Image" />
                                     </td>
                                     <td class="py-1">
-                                        <p>@category.Products.Count</p>
+                                        <p>@slider.Title</p>
                                     </td>
                                     <td class="py-1">
-                                        <a asp-action="update" asp-route-id="@category.Id" class="btn btn-outline-warning btn-fw">Edit</a>
-                                        <a asp-action="delete" asp-route-id="@category.Id" class="btn btn-outline-danger btn-fw">Delete</a>
-                                        <a asp-action="Detail" asp-route-id="@category.Id" class="btn btn-outline-info btn-fw">Details</a>
+                                        <p>@slider.Subtitle</p>
+                                    </td>
+                                    <td class="py-1">
+                                        <p>@slider.Order</p>
+                                    </td>
+                                    <td class="py-1">
+                                        <a asp-action="update" asp-route-id="@slider.Id" class="btn btn-outline-warning btn-fw">Edit</a>
+                                        <a asp-action="delete" asp-route-id="@slider.Id" class="btn btn-outline-danger btn-fw">Delete</a>
+                                        <a asp-action="Detail" asp-route-id="@slider.Id" class="btn btn-outline-info btn-fw">Details</a>
 
                                     </td>
 
