@@ -17,6 +17,8 @@ namespace _27_FrontToBackSqlConnection.Models
         [NotMapped]
         public IFormFile Photo { get; set; }
 
+        
+
 
     }
 }

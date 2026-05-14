@@ -1,5 +1,7 @@
 ﻿using _27_FrontToBackSqlConnection.Data;
 using _27_FrontToBackSqlConnection.Models;
+using _27_FrontToBackSqlConnection.Utilities.Enums;
+using _27_FrontToBackSqlConnection.Utilities.Extension;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
@@ -28,47 +30,40 @@ namespace _27_FrontToBackSqlConnection.Areas.AdminPanel.Controllers
             return View();
         }
 
-        //download.jpg     image/jpeg   10360
-
-        //public IActionResult Test()
-        //{
-        //    return Content(Guid.NewGuid().ToString());
-        //}
+       
 
         [HttpPost]
 
         public async Task<IActionResult> Create(Slider slider)
         {
+            if (slider.Photo == null)
+            {
+                ModelState.AddModelError("Photo", "Zəhmət olmasa şəkil seçin!");
+                return View(slider);
+            }
+
             if (!ModelState.IsValid)
             {
                 return View();
             }
 
-            if (!slider.Photo.ContentType.Contains("image/"))
+            if (!slider.Photo.CheckFileType("image/"))
             {
                 ModelState.AddModelError(nameof(Slider.Photo), "File type is incorrect!");
                 return View();
             }
 
-            if (slider.Photo.Length > 2 * 1024 * 1024)
+            if (!slider.Photo.CheckFileSize(FileSize.MB,2))
             {
                 ModelState.AddModelError(nameof(Slider.Photo), "File size must be less than 2mb!");
                 return View();
             }
 
-            //string path = _env.WebRootPath + "\\assets\\images\\website-images\\" + slider.Photo.FileName;
+            string imageUrl = await slider.Photo.CreateFile(_env.WebRootPath, "assets", "images", "website-images");
 
-            string fileName = string.Concat(Guid.NewGuid().ToString(), slider.Photo.FileName);
 
-            string path = Path.Combine(_env.WebRootPath, "assets", "images", "website-images", fileName);
 
-            FileStream fileStream = new FileStream(path,FileMode.Create);
-
-            await slider.Photo.CopyToAsync(fileStream);
-
-            fileStream.Close();
-
-            slider.Image = fileName;
+            slider.Image = imageUrl;
 
             await _context.AddAsync(slider);
 
