@@ -119,5 +119,15 @@ namespace _27_FrontToBackSqlConnection.Areas.AdminPanel.Controllers
 
             return RedirectToAction(nameof(Index));
         }
+
+        public async Task <IActionResult> Detail(int? id)
+        {
+            Category? category = await _context.Categories
+                .Include(c => c.Products)
+                .Where(c => !c.IsDeleted)
+                .FirstOrDefaultAsync(c => c.Id == id);
+
+            return View(category);
+        }
     }
 }

@@ -1,29 +1,41 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Lenovo\\Desktop\\APA103\\27-FrontToBackSqlConnection\\",
+  "WorkspaceRootPath": "C:\\Users\\Lenovo\\Desktop\\PROJECT\\27-FrontToBackSqlConnection\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{194DC090-59E9-2B80-C2F4-53A50FBCB1A3}|27-FrontToBackSqlConnection.csproj|c:\\users\\lenovo\\desktop\\apa103\\27-fronttobacksqlconnection\\utilities\\extension\\filevalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{194DC090-59E9-2B80-C2F4-53A50FBCB1A3}|27-FrontToBackSqlConnection.csproj|solutionrelative:utilities\\extension\\filevalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{194DC090-59E9-2B80-C2F4-53A50FBCB1A3}|27-FrontToBackSqlConnection.csproj|c:\\users\\lenovo\\desktop\\project\\27-fronttobacksqlconnection\\areas\\adminpanel\\views\\slider\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{194DC090-59E9-2B80-C2F4-53A50FBCB1A3}|27-FrontToBackSqlConnection.csproj|solutionrelative:areas\\adminpanel\\views\\slider\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{194DC090-59E9-2B80-C2F4-53A50FBCB1A3}|27-FrontToBackSqlConnection.csproj|c:\\users\\lenovo\\desktop\\apa103\\27-fronttobacksqlconnection\\models\\slider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{194DC090-59E9-2B80-C2F4-53A50FBCB1A3}|27-FrontToBackSqlConnection.csproj|solutionrelative:models\\slider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{194DC090-59E9-2B80-C2F4-53A50FBCB1A3}|27-FrontToBackSqlConnection.csproj|c:\\users\\lenovo\\desktop\\apa103\\27-fronttobacksqlconnection\\areas\\adminpanel\\views\\slider\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{194DC090-59E9-2B80-C2F4-53A50FBCB1A3}|27-FrontToBackSqlConnection.csproj|c:\\users\\lenovo\\desktop\\project\\27-fronttobacksqlconnection\\areas\\adminpanel\\views\\slider\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{194DC090-59E9-2B80-C2F4-53A50FBCB1A3}|27-FrontToBackSqlConnection.csproj|solutionrelative:areas\\adminpanel\\views\\slider\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{194DC090-59E9-2B80-C2F4-53A50FBCB1A3}|27-FrontToBackSqlConnection.csproj|c:\\users\\lenovo\\desktop\\apa103\\27-fronttobacksqlconnection\\areas\\adminpanel\\views\\slider\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{194DC090-59E9-2B80-C2F4-53A50FBCB1A3}|27-FrontToBackSqlConnection.csproj|solutionrelative:areas\\adminpanel\\views\\slider\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{194DC090-59E9-2B80-C2F4-53A50FBCB1A3}|27-FrontToBackSqlConnection.csproj|c:\\users\\lenovo\\desktop\\project\\27-fronttobacksqlconnection\\areas\\adminpanel\\views\\category\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{194DC090-59E9-2B80-C2F4-53A50FBCB1A3}|27-FrontToBackSqlConnection.csproj|solutionrelative:areas\\adminpanel\\views\\category\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{194DC090-59E9-2B80-C2F4-53A50FBCB1A3}|27-FrontToBackSqlConnection.csproj|c:\\users\\lenovo\\desktop\\apa103\\27-fronttobacksqlconnection\\areas\\adminpanel\\controllers\\slidercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{194DC090-59E9-2B80-C2F4-53A50FBCB1A3}|27-FrontToBackSqlConnection.csproj|c:\\users\\lenovo\\desktop\\project\\27-fronttobacksqlconnection\\areas\\adminpanel\\controllers\\slidercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{194DC090-59E9-2B80-C2F4-53A50FBCB1A3}|27-FrontToBackSqlConnection.csproj|solutionrelative:areas\\adminpanel\\controllers\\slidercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{194DC090-59E9-2B80-C2F4-53A50FBCB1A3}|27-FrontToBackSqlConnection.csproj|c:\\users\\lenovo\\desktop\\apa103\\27-fronttobacksqlconnection\\utilities\\enums\\filesize.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{194DC090-59E9-2B80-C2F4-53A50FBCB1A3}|27-FrontToBackSqlConnection.csproj|c:\\users\\lenovo\\desktop\\project\\27-fronttobacksqlconnection\\models\\slider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{194DC090-59E9-2B80-C2F4-53A50FBCB1A3}|27-FrontToBackSqlConnection.csproj|solutionrelative:models\\slider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{194DC090-59E9-2B80-C2F4-53A50FBCB1A3}|27-FrontToBackSqlConnection.csproj|c:\\users\\lenovo\\desktop\\project\\27-fronttobacksqlconnection\\areas\\adminpanel\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{194DC090-59E9-2B80-C2F4-53A50FBCB1A3}|27-FrontToBackSqlConnection.csproj|solutionrelative:areas\\adminpanel\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{194DC090-59E9-2B80-C2F4-53A50FBCB1A3}|27-FrontToBackSqlConnection.csproj|c:\\users\\lenovo\\desktop\\project\\27-fronttobacksqlconnection\\areas\\adminpanel\\views\\slider\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{194DC090-59E9-2B80-C2F4-53A50FBCB1A3}|27-FrontToBackSqlConnection.csproj|solutionrelative:areas\\adminpanel\\views\\slider\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{194DC090-59E9-2B80-C2F4-53A50FBCB1A3}|27-FrontToBackSqlConnection.csproj|c:\\users\\lenovo\\desktop\\project\\27-fronttobacksqlconnection\\utilities\\extension\\filevalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{194DC090-59E9-2B80-C2F4-53A50FBCB1A3}|27-FrontToBackSqlConnection.csproj|solutionrelative:utilities\\extension\\filevalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{194DC090-59E9-2B80-C2F4-53A50FBCB1A3}|27-FrontToBackSqlConnection.csproj|c:\\users\\lenovo\\desktop\\project\\27-fronttobacksqlconnection\\utilities\\enums\\filesize.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{194DC090-59E9-2B80-C2F4-53A50FBCB1A3}|27-FrontToBackSqlConnection.csproj|solutionrelative:utilities\\enums\\filesize.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -34,42 +46,56 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "FileSize.cs",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\APA103\\27-FrontToBackSqlConnection\\Utilities\\Enums\\FileSize.cs",
-              "RelativeDocumentMoniker": "Utilities\\Enums\\FileSize.cs",
-              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\APA103\\27-FrontToBackSqlConnection\\Utilities\\Enums\\FileSize.cs",
-              "RelativeToolTip": "Utilities\\Enums\\FileSize.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-14T18:25:55.56Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "FileValidator.cs",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\APA103\\27-FrontToBackSqlConnection\\Utilities\\Extension\\FileValidator.cs",
-              "RelativeDocumentMoniker": "Utilities\\Extension\\FileValidator.cs",
-              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\APA103\\27-FrontToBackSqlConnection\\Utilities\\Extension\\FileValidator.cs",
-              "RelativeToolTip": "Utilities\\Extension\\FileValidator.cs",
-              "ViewState": "AgIAACkAAAAAAAAAAAAgwDMAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-14T18:12:29.565Z",
+              "DocumentIndex": 2,
+              "Title": "Detail.cshtml",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\PROJECT\\27-FrontToBackSqlConnection\\Areas\\AdminPanel\\Views\\Category\\Detail.cshtml",
+              "RelativeDocumentMoniker": "Areas\\AdminPanel\\Views\\Category\\Detail.cshtml",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\PROJECT\\27-FrontToBackSqlConnection\\Areas\\AdminPanel\\Views\\Category\\Detail.cshtml",
+              "RelativeToolTip": "Areas\\AdminPanel\\Views\\Category\\Detail.cshtml",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-16T11:13:59.427Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\PROJECT\\27-FrontToBackSqlConnection\\Areas\\AdminPanel\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "Areas\\AdminPanel\\Controllers\\CategoryController.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\PROJECT\\27-FrontToBackSqlConnection\\Areas\\AdminPanel\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "Areas\\AdminPanel\\Controllers\\CategoryController.cs",
+              "ViewState": "AgIAAGkAAAAAAAAAAAAiwHcAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-16T11:06:54.449Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Detail.cshtml",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\PROJECT\\27-FrontToBackSqlConnection\\Areas\\AdminPanel\\Views\\Slider\\Detail.cshtml",
+              "RelativeDocumentMoniker": "Areas\\AdminPanel\\Views\\Slider\\Detail.cshtml",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\PROJECT\\27-FrontToBackSqlConnection\\Areas\\AdminPanel\\Views\\Slider\\Detail.cshtml",
+              "RelativeToolTip": "Areas\\AdminPanel\\Views\\Slider\\Detail.cshtml",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAAEIAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-16T10:52:09.946Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Slider.cs",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\APA103\\27-FrontToBackSqlConnection\\Models\\Slider.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\PROJECT\\27-FrontToBackSqlConnection\\Models\\Slider.cs",
               "RelativeDocumentMoniker": "Models\\Slider.cs",
-              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\APA103\\27-FrontToBackSqlConnection\\Models\\Slider.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\PROJECT\\27-FrontToBackSqlConnection\\Models\\Slider.cs",
               "RelativeToolTip": "Models\\Slider.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAswBYAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-13T17:12:01.179Z",
               "EditorCaption": ""
@@ -77,41 +103,64 @@
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\APA103\\27-FrontToBackSqlConnection\\Areas\\AdminPanel\\Views\\Slider\\Create.cshtml",
-              "RelativeDocumentMoniker": "Areas\\AdminPanel\\Views\\Slider\\Create.cshtml",
-              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\APA103\\27-FrontToBackSqlConnection\\Areas\\AdminPanel\\Views\\Slider\\Create.cshtml",
-              "RelativeToolTip": "Areas\\AdminPanel\\Views\\Slider\\Create.cshtml",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAsAAAA5AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-05-13T17:09:22.908Z",
+              "Title": "SliderController.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\PROJECT\\27-FrontToBackSqlConnection\\Areas\\AdminPanel\\Controllers\\SliderController.cs",
+              "RelativeDocumentMoniker": "Areas\\AdminPanel\\Controllers\\SliderController.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\PROJECT\\27-FrontToBackSqlConnection\\Areas\\AdminPanel\\Controllers\\SliderController.cs",
+              "RelativeToolTip": "Areas\\AdminPanel\\Controllers\\SliderController.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAAAiwDcAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-13T16:33:30.735Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
+              "Title": "FileValidator.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\PROJECT\\27-FrontToBackSqlConnection\\Utilities\\Extension\\FileValidator.cs",
+              "RelativeDocumentMoniker": "Utilities\\Extension\\FileValidator.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\PROJECT\\27-FrontToBackSqlConnection\\Utilities\\Extension\\FileValidator.cs",
+              "RelativeToolTip": "Utilities\\Extension\\FileValidator.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAACgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-14T18:12:29.565Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\APA103\\27-FrontToBackSqlConnection\\Areas\\AdminPanel\\Views\\Slider\\Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\PROJECT\\27-FrontToBackSqlConnection\\Areas\\AdminPanel\\Views\\Slider\\Index.cshtml",
               "RelativeDocumentMoniker": "Areas\\AdminPanel\\Views\\Slider\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\APA103\\27-FrontToBackSqlConnection\\Areas\\AdminPanel\\Views\\Slider\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\PROJECT\\27-FrontToBackSqlConnection\\Areas\\AdminPanel\\Views\\Slider\\Index.cshtml",
               "RelativeToolTip": "Areas\\AdminPanel\\Views\\Slider\\Index.cshtml",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAACwAAAA1AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2026-05-13T16:42:58.234Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "SliderController.cs",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\APA103\\27-FrontToBackSqlConnection\\Areas\\AdminPanel\\Controllers\\SliderController.cs",
-              "RelativeDocumentMoniker": "Areas\\AdminPanel\\Controllers\\SliderController.cs",
-              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\APA103\\27-FrontToBackSqlConnection\\Areas\\AdminPanel\\Controllers\\SliderController.cs",
-              "RelativeToolTip": "Areas\\AdminPanel\\Controllers\\SliderController.cs",
-              "ViewState": "AgIAADoAAAAAAAAAAAAkwEMAAAAsAAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\PROJECT\\27-FrontToBackSqlConnection\\Areas\\AdminPanel\\Views\\Slider\\Create.cshtml",
+              "RelativeDocumentMoniker": "Areas\\AdminPanel\\Views\\Slider\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\PROJECT\\27-FrontToBackSqlConnection\\Areas\\AdminPanel\\Views\\Slider\\Create.cshtml",
+              "RelativeToolTip": "Areas\\AdminPanel\\Views\\Slider\\Create.cshtml",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAACYAAABbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-13T17:09:22.908Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "FileSize.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\PROJECT\\27-FrontToBackSqlConnection\\Utilities\\Enums\\FileSize.cs",
+              "RelativeDocumentMoniker": "Utilities\\Enums\\FileSize.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\PROJECT\\27-FrontToBackSqlConnection\\Utilities\\Enums\\FileSize.cs",
+              "RelativeToolTip": "Utilities\\Enums\\FileSize.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-13T16:33:30.735Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-14T18:25:55.56Z"
             }
           ]
         }
