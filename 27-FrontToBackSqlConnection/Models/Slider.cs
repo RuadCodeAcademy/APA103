@@ -13,11 +13,9 @@ namespace _27_FrontToBackSqlConnection.Models
         public string? Image { get; set; }
         public int Order { get; set; }
 
-        [Required]
-        [NotMapped]
-        public IFormFile Photo { get; set; }
 
-        
+       
+
 
 
     }
