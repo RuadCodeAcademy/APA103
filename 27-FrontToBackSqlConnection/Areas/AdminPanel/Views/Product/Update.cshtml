@@ -1,11 +1,12 @@
 ﻿@using _27_FrontToBackSqlConnection.Areas.AdminPanel.ViewModels.Product
-@model ProductCreateVM
+
+@model ProductUpdateVM
 
 <div class="row">
     <div class="col-md-6 grid-margin stretch-card">
         <div class="card">
             <div class="card-body">
-                <h4 class="card-title">Create Product</h4>
+                <h4 class="card-title">Update Product</h4>
 
                 <form class="forms-sample" method="post" enctype="multipart/form-data">
 
@@ -40,6 +41,18 @@
                         </select>
                         <span asp-validation-for="TagIds" class="text-danger"></span>
                     </div>
+                    @* <div class="form-group">
+
+                        <label for="name">Category</label>
+                        <select class="form-control" asp-for="CategoryId">
+                            <option selected disabled value="">Choose Category</option>
+                            @foreach (Category category in Model.Categories)
+                            {
+                                <option value="@category.Id">@category.Name</option>
+                            }
+                            <span asp-validation-for="CategoryId" class="text-danger"></span>
+                        </select>
+                    </div> *@
                     <div class="form-group">
                         <label for="name"></label>
                         <label for="name">Description</label>

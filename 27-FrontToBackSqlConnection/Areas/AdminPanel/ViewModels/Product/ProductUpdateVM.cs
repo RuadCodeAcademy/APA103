@@ -3,10 +3,8 @@ using System.ComponentModel.DataAnnotations;
 
 namespace _27_FrontToBackSqlConnection.Areas.AdminPanel.ViewModels.Product
 {
-    public class ProductCreateVM
+    public class ProductUpdateVM
     {
-       
-        
         public string Name { get; set; }
         public decimal Price { get; set; }
 
@@ -15,10 +13,8 @@ namespace _27_FrontToBackSqlConnection.Areas.AdminPanel.ViewModels.Product
         public string SKU { get; set; }
         [Required]
         public int? CategoryId { get; set; }
-        public List<int>? TagIds { get; set; }
         public List<Category>? Categories { get; set; }
+        public List<int>? TagIds { get; set; }
         public List<Tag>? Tags { get; set; }
-
-
     }
 }

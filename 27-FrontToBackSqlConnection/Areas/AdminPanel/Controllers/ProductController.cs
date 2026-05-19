@@ -60,6 +60,7 @@ namespace _27_FrontToBackSqlConnection.Areas.AdminPanel.Controllers
             ProductCreateVM productCreateVM = new()
             {
                 Categories = await _context.Categories.Where(c=>!c.IsDeleted).ToListAsync(),
+                Tags = await _context.Tags.Where(t => !t.IsDeleted).ToListAsync(),
             };
 
             return View(productCreateVM);
@@ -69,6 +70,7 @@ namespace _27_FrontToBackSqlConnection.Areas.AdminPanel.Controllers
         public async Task<IActionResult> Create(ProductCreateVM productCreateVM)
         {
             productCreateVM.Categories = await _context.Categories.Where(c => !c.IsDeleted).ToListAsync();
+            productCreateVM.Tags = await _context.Tags.Where(t => !t.IsDeleted).ToListAsync();
 
             if (!ModelState.IsValid) return View(productCreateVM);
 
@@ -80,6 +82,16 @@ namespace _27_FrontToBackSqlConnection.Areas.AdminPanel.Controllers
                 return View(productCreateVM);
             }
 
+            if (productCreateVM.TagIds is not null)
+            {
+                bool existTag = productCreateVM.TagIds.Any(tagId => productCreateVM.Tags.Exists(t => t.Id == tagId));
+                if (!existTag)
+                {
+                    ModelState.AddModelError(nameof(ProductCreateVM.CategoryId), "Tag does not exist!");
+                    return View(productCreateVM);
+                }
+            }
+
             Product product = new()
             {
                 Name = productCreateVM.Name,
@@ -89,9 +101,69 @@ namespace _27_FrontToBackSqlConnection.Areas.AdminPanel.Controllers
                 CategoryId = productCreateVM.CategoryId.Value
             };
 
+            if (productCreateVM.TagIds is not null)
+            {
+                product.ProductTags = productCreateVM.TagIds.Select(tId => new ProductTag { TagId = tId }).ToList();
+            }
+
             await _context.Products.AddAsync(product);
             await _context.SaveChangesAsync();
 
+            return RedirectToAction(nameof(Index));
+        }
+
+        public async Task<IActionResult> Update(int? id)
+        {
+            if (id == null || id < 1) return BadRequest();
+
+            Product? existProduct = await _context.Products.Include(p=>p.ProductTags).FirstOrDefaultAsync(p => p.Id == id);
+
+
+            if (existProduct == null) return NotFound();
+
+            if (!ModelState.IsValid) return View();
+
+            ProductUpdateVM productUpdateVM = new()
+            {
+                Name = existProduct.Name,
+                Price = existProduct.Price,
+                Description = existProduct.Description,
+                SKU = existProduct.SKU,
+                CategoryId = existProduct.CategoryId,
+                Categories = await _context.Categories.ToListAsync(),
+                TagIds = existProduct.ProductTags.Select(pt => pt.TagId).ToList(),
+                Tags = await _context.Tags.ToListAsync(),
+            };
+
+
+            return View(productUpdateVM);
+        }
+        [HttpPost]
+        public async Task<IActionResult> Update(int? id, ProductUpdateVM productUpdateVM)
+        {
+            if (id == null || id < 1) return BadRequest();
+
+            productUpdateVM.Categories = await _context.Categories.Where(c => !c.IsDeleted).ToListAsync();
+
+            if (!ModelState.IsValid) return View(productUpdateVM);
+
+            Product? existProduct = await _context.Products.FirstOrDefaultAsync(p => p.Id == id);
+            if (existProduct == null) return NotFound();
+
+            bool existCategory = productUpdateVM.Categories.Any(c => c.Id == productUpdateVM.CategoryId);
+            if (!existCategory)
+            {
+                ModelState.AddModelError(nameof(productUpdateVM.CategoryId), "Category does not exist!");
+                return View(productUpdateVM);
+            }
+
+            existProduct.Name = productUpdateVM.Name;
+            existProduct.Price = productUpdateVM.Price;
+            existProduct.Description = productUpdateVM.Description;
+            existProduct.SKU = productUpdateVM.SKU;
+            existProduct.CategoryId = productUpdateVM.CategoryId.Value;
+
+            await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
     }
